@@ -19,3 +19,46 @@ a {
 img {
 	max-width: 100%;
 }
+
+/* LAYOUT */
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.row > * {
+	padding: 0 20px;
+}
+
+
+/* Header */
+
+.main-header {
+    padding: 12px 80px;
+    background-color: #ACD7E5;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    background-color: #DAA520;
+    border: 1px dashed black;
+}
+.navbar > ul {
+    border-right: 1px dashed black;
+    border-left: 1px dashed black;
+}
+.main-menu {
+    display: flex;
+    gap: 20px;
+    width: 50%;
+    border: 0px 1px dashed black;
+    justify-content: center;
+}
