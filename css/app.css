@@ -62,3 +62,19 @@ img {
     border: 0px 1px dashed black;
     justify-content: center;
 }
+
+/* Hero */
+
+.hero {
+    min-height: 400px;
+    background-color: #EE82EE;
+    border: 1px dashed black;
+    border-radius: 5px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.hero-section {
+    background-color: #00008B;
+    padding: 40px 250px;
+}
